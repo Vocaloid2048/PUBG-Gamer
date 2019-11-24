@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="voc.net.tools.pubggamer">
+
+    <permission
+        android:name="voc.net.app.permission.ANSON"
+        android:description="@string/anson_permission"
+        android:protectionLevel="dangerous"
+        android:permissionGroup="@string/app_name"
+        android:icon="@drawable/anson_darnell"/>
+
+    <permission
+        android:name="voc.net.app.permission.LMZ"
+        android:description="@string/lmz_permission"
+        android:protectionLevel="dangerous"
+        android:permissionGroup="@string/app_name"
+        />
+
+    <permission
+        android:name="voc.net.app.permission.CBK"
+        android:description="@string/cbk_permission"
+        android:protectionLevel="dangerous"
+        android:permissionGroup="@string/app_name"
+        />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 网络请求 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 保持手机唤醒 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- sd -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="voc.net.app.permission.CBK"/>
+    <uses-permission android:name="voc.net.app.permission.ANSON"/>
+    <uses-permission android:name="voc.net.app.permission.LMZ"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TreatyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAppTheme"
+            android:label="群組規例"/>
+        <activity
+            android:name=".AlarmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAppTheme" />
+        <activity android:name=".Swing02Activity" />
+        <activity
+            android:name=".SwingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LockActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAppTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity
+            android:name=".InviteActivity"
+            android:label="組隊團戰 "
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DownloadActivity" />
+        <activity
+            android:name=".EasterEggActivity"
+            android:label="Voc的彩蛋"
+            android:theme="@style/NoAppTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VersionTreeActivity"
+            android:label="版本樹"
+            android:theme="@style/NoAppTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IslandMapActivity"
+            android:label="孤島地圖--跳哪兒?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SandMapActivity"
+            android:label="沙漠地圖--跳哪兒?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForestMapActivity"
+            android:label="雨林地圖--跳哪兒?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SnowMapActivity"
+            android:label="雪地地圖--跳哪兒?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddActivity"
+            android:label="組隊"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAppTheme" />
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ansen.checkupdate.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".FloatBallService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice" />
+        </service>
+        <service android:name=".AlarmService" />
+    </application>
+
+</manifest>
