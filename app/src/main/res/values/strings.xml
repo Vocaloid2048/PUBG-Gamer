@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">PUBG Gamer</string>
+    <string name="title_dialog">友情提示</string>
+        
+    <string name="message_permission_failed">尚未獲取SD卡讀取權限</string>
+        
+    <string name="message_permission_rationale">獲取SD卡讀取權限</string>
+        
+    <string name="btn_dialog_yes_permission">去設置</string>
+        
+    <string name="btn_dialog_no_permission">取消</string>
+        
+    <string name="message_setting_back">用戶從設置回來了</string>
+        
+    <string name="message_post_succeed">獲取SD卡權限成功</string>
+        
+    <string name="message_post_failed">獲取SD卡權限失敗</string>
+    <string name="version">1.9.2</string>
+
+    <string name="fingerprint_description">按下圖示並確認您的指紋</string>
+    <string name="fingerprint_hint">觸摸指紋傳感器</string>
+
+    <!-- Button text -->
+    <string name="start_btn">Start</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <string name="fingerprint_success">指紋識別成功</string>
+    <string name="fingerprint_not_recognized">指紋識別失敗，請重試</string>
+    <string name="fingerprint_too_fast">手速太快,請重試</string>
+
+    <!-- Dialog info -->
+    <string name="no_sensor_dialog_title">No fingerprint sensor</string>
+    <string name="no_sensor_dialog_message">No fingerprint sensor on your device, click cancel to exit.</string>
+    <string name="no_fingerprint_enrolled_dialog_title">No fingerprint enrolled</string>
+    <string name="no_fingerprint_enrolled_dialog_message">No fingerprint enrolled, enter\n
+        <font fgcolor="green">Setting->Security->Nexus Imprint\n</font>
+        to enrollor click cancel to exit.</string>
+    <string name="ok_btn_dialog">OK</string>
+    <string name="cancel_btn_dialog">Cancel</string>
+
+    <!-- auth result error amd help code warning -->
+    <string name="AcquiredGood_warning">The image acquired was good.</string>
+    <string name="AcquiredImageDirty_warning">The fingerprint image was too noisy due to suspected or detected dirt on the sensor.
+        For example, it\'s reasonable to return this after multiple AcquiredInsufficient or
+        actual detection of dirt on the sensor (stuck pixels, swaths, etc.).
+        The user is expected to take action to clean the sensor when this is returned.</string>
+    <string name="AcquiredInsufficient_warning">The fingerprint image was too noisy to process due to
+        a detected condition (i.e. dry skin) or a possibly dirty sensor.</string>
+    <string name="AcquiredPartial_warning">Only a partial fingerprint image was detected.
+        During enrollment, the user should be informed on what needs to happen to resolve this problem, e.g., "press firmly on sensor."</string>
+    <string name="AcquiredTooFast_warning">The fingerprint image was incomplete due to quick motion.
+        While mostly appropriate for linear array sensors, this could also happen if the finger was moved during acquisition.
+        The user should be asked to move the finger slower (linear) or leave the finger on the sensor longer.</string>
+    <string name="AcquiredToSlow_warning">The fingerprint image was unreadable due to lack of motion.
+        This is most appropriate for linear array sensors that require a swipe motion.</string>
+    <string name="ErrorCanceled_warning">The operation was canceled because the fingerprint sensor is unavailable.
+        For example, this may happen when the user is switched,
+        the device is locked, or another pending operation prevents or disables it.</string>
+    <string name="ErrorHwUnavailable_warning">The hardware is unavailable. Try again later.</string>
+    <string name="ErrorLockout_warning">The operation was canceled because the API is locked out due to too many attempts.</string>
+    <string name="ErrorNoSpace_warning">Error state returned for operations like enrollment;
+        the operation cannot be completed because there\'s not enough storage remaining to complete the operation.</string>
+    <string name="ErrorTimeout_warning">Error state returned when the current request has been running too long.
+        This is intended to prevent programs from waiting for the fingerprint sensor indefinitely.
+        The timeout is platform and sensor-specific, but is generally about 30 seconds.</string>
+    <string name="ErrorUnableToProcess_warning">Error state returned when the sensor was unable to process the current image.</string>
+    <string name="nick01">我們不是沒有顧念我們大陸的弟兄...</string>
+    <string name="nick02">Roy Nip</string>
+    <string name="nick03">古之學者必Hi大麻。HI大麻者...</string>
+    <string name="nick04">新穎雷-月世界~</string>
+    <string name="nick05">奧巴馬吸大麻🌿🌿</string>
+    <string name="nick06">🎷🍀</string>
+    <string name="nick07">...</string>
+    <string name="nick08">談戀愛不是比賽，為何要作比較</string>
+    <string name="nick09">I am hanging off the edge</string>
+
+    <string name="accessibility">开启悬浮球辅助功能</string>
+    <string name="tip">为保证悬浮球正常使用，请将其加入系统清理白名单</string>
+
+    <string name="anson_permission">Anson 無處不在</string>
+    <string name="lmz_permission">A片呂王</string>
+    <string name="cbk_permission">鄭板橋到此一悠</string>
+
+    <string name="組隊團戰">組隊團戰</string>
+    <string name="組隊團戰玩PUBG">組隊團戰玩PUBG</string>
+    <string name="Voc的彩蛋">Voc的彩蛋</string>
+    <string name="群組規例">群組規例</string>
+    <string name="群組規例LONG">Attention ! 群組規例</string>
+    <string name="Version">版本樹</string>
+
+</resources>

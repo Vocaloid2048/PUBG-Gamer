@@ -1,0 +1,72 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="invite"
+        android:enabled="true"
+        android:icon="@drawable/programmer_cl"
+        android:shortcutShortLabel="@string/組隊團戰"
+        android:shortcutLongLabel="@string/組隊團戰玩PUBG">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="voc.net.tools.pubggamer"
+            android:targetClass="voc.net.tools.pubggamer.InviteActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="version"
+        android:enabled="true"
+        android:icon="@drawable/unname_cl"
+        android:shortcutShortLabel="@string/Version"
+        android:shortcutLongLabel="@string/Version">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="voc.net.tools.pubggamer"
+            android:targetClass="voc.net.tools.pubggamer.VersionTreeActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="easter_egg"
+        android:enabled="true"
+        android:icon="@drawable/eee_cl"
+        android:shortcutShortLabel="@string/Voc的彩蛋"
+        android:shortcutLongLabel="@string/Voc的彩蛋">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="voc.net.tools.pubggamer"
+            android:targetClass="voc.net.tools.pubggamer.EasterEggActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="treaty"
+        android:enabled="true"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:shortcutShortLabel="@string/群組規例"
+        android:shortcutLongLabel="@string/群組規例LONG">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="voc.net.tools.pubggamer"
+            android:targetClass="voc.net.tools.pubggamer.TreatyActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="main"
+        android:enabled="true"
+        android:icon="@drawable/gp_img_cl"
+        android:shortcutShortLabel="@string/app_name"
+        android:shortcutLongLabel="@string/app_name">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="voc.net.tools.pubggamer"
+            android:targetClass="voc.net.tools.pubggamer.SplashActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+</shortcuts>

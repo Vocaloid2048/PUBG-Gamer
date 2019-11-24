@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item
+        android:id="@+id/treaty"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="Rules"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/alarm"
+        android:icon="@drawable/ic_alarm_black_24dp"
+        app:showAsAction="always"
+        android:title="Alarm" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/programmer"
+        android:icon="@drawable/ic_android_black_24dp"
+        app:showAsAction="always"
+        android:title="Programmer" />
+
+</menu>
