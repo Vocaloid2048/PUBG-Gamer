@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272729"
+    tools:context=".EasterEggActivity" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/easter_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:textColor="@color/background"
+        android:theme="@style/AppTheme.ToolBarStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:logo="@drawable/eee_cl_150"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/Voc的彩蛋" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easter_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c01"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="1. 羅浩男接電話"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a01"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:12"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b01"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b01" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c02"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="2. 李逸朗的問候"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a02"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:23"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b02"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b02" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c03"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="3. 梁靄雯的責怪"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a03"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:15"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b03"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b03" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c04"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="4.羅浩男接電話2"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a04"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:06"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b04"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b04" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c05"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="5.羅浩男懼禮物"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a05"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:08"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b05"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b05" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k5"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c06"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="6.羅浩男不課金承諾"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a06"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:17"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b06"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b06" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k6"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c07"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="7.羅浩男叫上線"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a07"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:05"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b07"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b07" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k7"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c08"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="8.羅浩男的責罵"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a08"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:08"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b08"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b08" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k8"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c09"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="9.羅浩男的射擊"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a09"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:07"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b09"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b09" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k9"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c10"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="10.羅浩男為甚麼"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a10"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:03"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b10"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b10" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k10"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212123" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c11"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="11.羅浩男的YEE"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a11"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:09"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b11"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b11" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k11"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#212931" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c12"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="12.羅浩男的質問"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a12"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:02"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b12"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b12" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k12"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#213133" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c13"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="13.劉俊彥的道別"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a13"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:04"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b13"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b13" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k13"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#213133" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c14"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="14.黎浩賢的拯救"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a14"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:15"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b14"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b14" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k14"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#214143" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c15"
+                    android:layout_width="257dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="15.黎浩賢的斥備"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/a15"
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="00:09"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/b15"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_play_circle_outline_black_24dp_b"
+                    android:onClick="b15" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/k15"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#215153" />
+
+            <TextView
+                android:id="@+id/none2"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="沒有了..."
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tau_btn"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:onClick="tau"
+                android:text="按我投稿!!!😉"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/list_bg"
+        android:gravity="center"
+        android:text="建議聲音設定在約50%"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

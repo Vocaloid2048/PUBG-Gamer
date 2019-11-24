@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#272729"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/island_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="孤島地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.181" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/snow_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="雪地地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.511" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/forest_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="雨林地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/sand_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="沙漠地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.29" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/zombie_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="殭屍地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.62" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/fun_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="倉庫地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.73" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/fire_btn"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="火力全開"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.84" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <Button
+                android:id="@+id/wai_jik"
+                android:layout_width="304dp"
+                android:layout_height="56dp"
+                android:layout_weight="0"
+
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:onClick="mc"
+                android:text="遺蹟地圖"
+                android:textColor="@color/background"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/step4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="0"
+
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="STEP 04 : 選擇地圖"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_weight="0"
+
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="--------------------------------------------------------------------------------------------------------------------------"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

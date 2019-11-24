@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#272729"
+    tools:context=".SnowMapActivity">
+
+    <voc.net.tools.pubggamer.ZoomImageView
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="345dp"
+        android:background="#272729"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pubg_004_map" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#272729"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#272729"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/ip1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="軍港"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="扎魯鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="亞力克港"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="煤礦"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="航天基地"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="雙池鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="冰湖鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="鐘塔港"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/ip9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="滑雪場"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="雙橋鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="哈達農場"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="豪宅"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="水泥廠"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="希恩港"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="布格沃鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="愛情小鎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/ip17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="城堡"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="恐龍樂園"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="凜冬城"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="莊園"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="溫泉"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="中央公園"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="釀酒廠"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/ip24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="漁村"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

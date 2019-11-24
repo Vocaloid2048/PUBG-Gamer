@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".AddActivity">
+
+    <ImageView
+        android:id="@+id/gp_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="0"
+        android:background="#190E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gp_img" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/blank_01"
+                android:layout_width="wrap_content"
+                android:layout_height="183dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="?attr/colorControlHighlight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#272729"
+                    android:text="第一吃雞小隊"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:gravity="center"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo1"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_003" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="羅浩男"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick1"
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:layout_weight="0"
+                        android:text="吾等集合而倡香港獨立建國之目的..."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo2"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_none" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name2"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="聶楚豪"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick2"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="Roy Nip"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo3"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_004" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name3"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="許雍琪"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick3"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="Yo😛"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo4"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_006" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name4"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="Voc"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick4"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="新穎雷-月世界~"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo5"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_002" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name5"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="李日朗"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick5"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="I am inevitable"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo6"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_005" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name6"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="麥定行"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick6"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="🎷🍀"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/photo7"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_none" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name7"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="黎浩賢"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick7"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo8"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_001" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name8"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="劉俊彥"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick8"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="談戀愛不是比賽，為何要作比較😂😂 "
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/photo9"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0"
+                    android:foreground="@drawable/circ"
+                    app:srcCompat="@drawable/icon_none" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name9"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:text="梁靄雯"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/nick9"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_weight="0"
+                        android:text="。"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/blank_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0"
+                android:background="#272729"
+                android:gravity="center"
+                android:onClick="maps"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#272729"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/call_btn"
+                android:layout_width="137dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#001AFF"
+                android:gravity="center"
+                android:onClick="map"
+                android:text="地圖"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/time_btn"
+                android:layout_width="137dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:onClick="time"
+                android:text="上線時間"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/whatsapp_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:onClick="whatsapp"
+                android:text="Whatsapp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

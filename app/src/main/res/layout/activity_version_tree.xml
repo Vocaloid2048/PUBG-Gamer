@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/version_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:textColor="@color/background"
+        android:theme="@style/AppTheme.ToolBarStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:logo="@drawable/unname_cl_150"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/Version" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#272729"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.0"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEMO"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn0"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.1"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新增了個別通知畫面及組隊介面，以及給予致電及WhatsApp供聯絡選擇"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView01"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.2"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新增了新成員"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView02"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.3"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更改背景顏色為深灰色（#272729）"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView03"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.4"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入小彩蛋（Anson 的留言）及建議介面修改（因涉及私隱關係而詢問使用者是否提供詳細資訊予開發者）"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView04"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.5"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新增查看地圖頁面及選擇上線時間"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView05"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.6"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更改DEMO為程序猿，以及更改其界面，選擇地圖後可選擇跳的地方,查看地圖可放大地圖觀看"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView06"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.7"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入倉庫地圖（可放大）"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView07"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.7.1"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入玩家默認上線時間系統（Player Normal Online Time System , PNOTS)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView071"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn171"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.7.2"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入按按鈕知道玩家默認上線時間及新增更多成員上線時間"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView072"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn172"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.0"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="選擇地圖後會開啟新-選擇降落介面（可放大地圖及地點名稱按鈕）"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView08"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn08"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.1"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="增加版本樹（本介面）,增加彩蛋Let's sing,刪除&quot;我想看地圖&quot;選擇"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView081"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn181"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.2"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView282"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="增加游玩日期(今天,明天) , 收復BUG , 增加成員狀態"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView082"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn182"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.3"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView283"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="增加彩蛋頁面,修改成員清單"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView083"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn183"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.4"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView284"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入了更新服務 (過渡版)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView085"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn185"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.8.5"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更新服務2.0 (過渡版)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView084"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent" />
+
+                <Button
+                    android:id="@+id/btn184"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.0"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="重製邀請界面,新增升級版本確認"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView090"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn190"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv1901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.0.1"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView2901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="補丁:修復16:9手機無法使用邀請介面的問題"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView0901"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn1901"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.1"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="修復16:9手機無法使用邀請介面的問題,增加彩蛋(梁靄雯的責怪),修復邀請介面程式上問題"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView091"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn191"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.2"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="增加開始介面及指紋解鎖(不支援將直接進入主頁面)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView092"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn192"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.3"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="優化的平版的介面及修正API23-25無法開啟App的問題(PNOTS 3.0)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView093"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn193"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ic_arrow_down"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.4"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="修正成員狀態及無whatsapp閃退情況,增加App保護機制,懸浮球BETA(Android7.1.1及以下)及新地圖--遺蹟地圖"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView094"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn194"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:foregroundGravity="center"
+                    android:text="正式"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9.5"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加入分享界面,增加兼容介面,增加鬧鐘DEMO,增加.修正群組規則說明,增加十二個新彩蛋,修正部分界面,增加快捷方式--ShortCuts"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView095"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Alpha , Beta , Charlie , Delta , Easter , Funky"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn195"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="0"
+                    android:foregroundGravity="center"
+                    android:text="測試"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView095_2"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Generate"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn195_2"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="0"
+                    android:foregroundGravity="center"
+                    android:text="正式"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

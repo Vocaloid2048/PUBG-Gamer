@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272729"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadingEdge="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.viewpager.widget.ViewPager>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/radiobutton_bg_selector"
+            android:checked="true"
+            android:clickable="false" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/radiobutton_bg_selector"
+            android:clickable="false" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/radiobutton_bg_selector"
+            android:clickable="false" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/radiobutton_bg_selector"
+            android:clickable="false" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/radiobutton_bg_selector"
+            android:clickable="false" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom|left|center_horizontal"
+        android:gravity="center_vertical"
+        android:onClick="reset"
+        android:text="RESET"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom|right|center_horizontal"
+        android:gravity="center_vertical"
+        android:onClick="next"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textSize="24sp" />
+
+</FrameLayout>
