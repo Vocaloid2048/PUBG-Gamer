@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743934464843",
+    "firebase_url": "https://pubggamer.firebaseio.com",
+    "project_id": "pubggamer",
+    "storage_bucket": "pubggamer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743934464843:android:918b2f6a3ec453db",
+        "android_client_info": {
+          "package_name": "voc.net.tools.pubggamer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743934464843-lg2j20obdvc86gak4s9u62vitcud36up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "voc.net.tools.pubggamer",
+            "certificate_hash": "ca2019931aa9e066e24add2a9e5a9f31dc9c75f8"
+          }
+        },
+        {
+          "client_id": "743934464843-m25ttfhih4dni6mha25hnn6nc08jtifc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG00MN8KUupzWWm2xf18IA9hZa5K7N5S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743934464843-m25ttfhih4dni6mha25hnn6nc08jtifc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
